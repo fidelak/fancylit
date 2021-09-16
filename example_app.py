@@ -51,8 +51,11 @@ def viz_examples(df: pd.DataFrame) -> None:
 
     # Start bar chart example
     st.write("Bar Chart Example")
+    # Start line chart example
+    st.write("Line Chart Example")
     with st.echo():
         fancylit.viz.charts.bar_chart(df)
+        fancylit.viz.charts.line_chart(df)
 
 
 def sidebar() -> None:
